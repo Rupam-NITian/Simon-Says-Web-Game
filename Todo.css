@@ -1,0 +1,23 @@
+.cut {
+    font-size: 10px;
+}
+
+.hover {
+    margin: 0.5rem;
+    position: relative;
+    /* display: flex; */
+    /* display: none; */
+}
+
+.hover button {
+    font-size: 8px;
+    position: absolute;
+    margin-left: 6rem;
+    opacity: 0;
+}
+
+.hover:hover button {
+    opacity: 1;
+    cursor: pointer;
+}
+

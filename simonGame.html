@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Say Game</title>
+    <link rel="stylesheet" href="simonStyle.css">
+</head>
+<body>
+    <div class="headings">
+        <h1 >Simon Say Game</h1>
+        <h4 class="hide">Level - 1</h4>
+        <h3 class="hide"><b>"Follow the order of the blinked colors"</b></h3>
+    </div>
+    
+    <button id="start">Let's Start</button>
+    <div class="boxes hide">
+        <div class="upper">
+            <div class="box1" type="button" id="first"></div>
+            <div class="box2" type="button" id="second"></div>
+        </div>
+
+        <div class="lower">
+            <div class="box3" type="button" id="third"></div>
+            <div class="box4" type="button" id="fourth"></div>
+        </div>  
+    </div>
+
+    <div class="result hide">
+        <h1>Game Over</h1>
+        <h4>"You break the order!!!"</h4>
+        <h3></h3>    
+        <h4>(Refresh to play again)</h4>   
+    </div>
+    
+    <script src="simon.js"></script>
+</body>
+</html>
